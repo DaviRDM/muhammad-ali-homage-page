@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001d3d;
+    font-family: arial;
+    color: #ffc300;
+}
+
+.header {
+    height: fit-content;
+    background-color: #003566;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloname, .subtitulo {
+    color: #ffc300;
+
+}
+
+.firstimage {
+    display: flex;
+    justify-content: center;
+}
+
+.differentcolor {
+    background-color: #001d3d;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: 5px solid #003566;
+    vertical-align: middle;
+}
+
+figcaption {
+    background-color: #003566;
+    border: 5px solid #003566;
+    color: #ffc300;
+    text-align: center;
+}
+
+.text h1{
+    text-align: center;
+}
+
+.text blockquote {
+    font-family: italic;
+}
+
+.text q {
+    font-family: italic;
+}
+
+.text {
+    color: #ffc300;
+    margin: 10px;
+}
+
+p {
+    color: #ffc300;
+}
+
+.death {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textbox {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin-top: 0;
+}
+
+.textbox h1 {
+    text-align: center;
+}
+
+.death .firstimage {
+    flex: 1;
+}
+
+q {
+    font-family: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffc300;
+    background-image: url(https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201606/a_flashback_ali_160603.jpg);
+}
+
+img:last-of-type {
+    width: 700px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.other h1 {
+    font-size: 18.72px;
+}
+
+
